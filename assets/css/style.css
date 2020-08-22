@@ -112,7 +112,24 @@
     box-shadow: inset 0 0 0 1px rgb(11, 195, 192);
 }
 
+h2 {
+    color: rgb(19, 32, 40);
+    font-weight: 600;
+}
+
+header h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Mobile */
+
 @media screen and (max-width: 736px)  {
+
+    .row__p {
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
 
     .overlay {
         width: 95%;
@@ -127,14 +144,8 @@
         top: 15px;
         right: 35px;
     }
-}
 
-h2 {
-    color: rgb(19, 32, 40);
-    font-weight: 600;
-}
-
-header h4 {
-    font-size: 30px;
-    font-weight: 600;
+    .image.featured {
+        height: 250px;
+    }
 }
