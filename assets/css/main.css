@@ -1944,6 +1944,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.5em 2em 0.5em 2em;
+		font-weight: 500;
 		background-color: rgb(19, 32, 40);
 		border: 0;
 		cursor: pointer;
