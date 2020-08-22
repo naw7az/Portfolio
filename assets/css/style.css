@@ -112,10 +112,10 @@
     box-shadow: inset 0 0 0 1px rgb(11, 195, 192);
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 736px)  {
 
     .overlay {
-        width: 40%;
+        width: 95%;
     }
 
     .overlay a {
