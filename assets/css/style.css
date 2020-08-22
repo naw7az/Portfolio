@@ -133,6 +133,23 @@ header h4 {
 
     .overlay {
         width: 95%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .overlay h2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .overlay-content video {
+        height: 15rem;
+        margin-top: 0;
+    }
+
+    .overlay p {
+        font-size: 18px;
+        line-height: 25px;
     }
 
     .overlay a {
@@ -141,8 +158,8 @@ header h4 {
 
     .overlay .closebtn {
         font-size: 40px;
-        top: 15px;
-        right: 35px;
+        top: 1px;
+        right: 7px;
     }
 
     .image.featured {
