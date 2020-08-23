@@ -165,4 +165,14 @@ header h4 {
     .image.featured {
         height: 250px;
     }
+
+    header h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    header h4 {
+        font-size: 21px;
+        font-weight: 600;
+    }
 }
