@@ -166,21 +166,21 @@
 				<header>
 					<h2>Contact</h2>
 				</header>
-				<form method="post" action="#">
+				<div class="form">
 					<div class="row">
-						<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" required />
+						<div class="col-6 col-12-mobile"><input id="username" type="text" name="name" placeholder="Name" required />
 						</div>
-						<div class="col-6 col-12-mobile"><input type="email" name="email" placeholder="Email"
+						<div class="col-6 col-12-mobile"><input id="usermail" type="email" name="email" placeholder="Email"
 								required /></div>
 						<div class="col-12">
-							<textarea name="message" placeholder="Message" data-gramm_editor="false"
+							<textarea id="usermessage" name="message" placeholder="Message" data-gramm_editor="false"
 								required></textarea>
 						</div>
 						<div class="col-12">
-							<input type="submit" value="Send Message" />
+							<input id="sub" type="submit" value="Send Message" />
 						</div>
 					</div>
-				</form>
+				</div>
 
 			</div>
 		</section>
@@ -328,6 +328,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/hide.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
 
